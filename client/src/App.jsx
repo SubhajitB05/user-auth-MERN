@@ -7,7 +7,7 @@ import axios from "axios";
 import {Toaster} from 'react-hot-toast';
 import Dasboard from "./Pages/Dasboard";
 
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = 'https://user-auth-mern-backend.vercel.app/';
 axios.defaults.withCredentials = true;
 
 const App = () => {
