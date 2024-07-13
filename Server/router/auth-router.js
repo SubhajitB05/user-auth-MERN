@@ -9,6 +9,8 @@ router.use(
         origin: 'http://localhost:5173'
     })
 )
+
+
 router.get('/', test);
 // router.get('/dashboard', userDashboard)
 router.post('/register', registerUser)
